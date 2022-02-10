@@ -246,15 +246,26 @@ body {
   margin: 40px 75px;
   /* background-color: purple; */
 }
-.feature-list::before {
+.item::before {
   display: block;
   content:'';
-  width: 270px;
   height: 120px;
-  outline: 1px solid rebeccapurple;
-  background-image: url(../image/detals.png);
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-color: #C4C4C4;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+.detals::before {
+  background-image: url(../image/detals.png);
+}
+.punktyals::before {
+  background-image: url(../image/punktyals.png);
+}
+.plans::before {
+  background-image: url(../image/plans.png);
+}
+.tehnologi::before {
+  background-image: url(../image/tehnologi.png);
 }
 .feature-list .title {
   margin-top: 0;
