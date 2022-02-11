@@ -129,6 +129,28 @@ body {
 .auth-nav .navig + .navig {
   margin-left: 12px;
 }
+.email::before {
+  content:'';
+  width: 16px;
+  height: 12px;
+  background-image: url(../image/icon-email.png);
+  background-size: contain;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  margin-right:5px;
+  /* background-color: #f80808; */
+  /* color: red; */
+}
+.phone::before {
+  content:'';
+  width: 10px;
+  height: 16px;
+  background-image: url(../image/icon-phone.png);
+  background-size: contain;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  margin-right:5px;
+}
 
 .auth-nav .link {
   display: block;
