@@ -335,22 +335,29 @@ h3 {
 .section-team {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 29px;
+  margin-bottom: 2px;
 }
 .our-team {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
-  margin: -25px
+  margin: -15px
   margin-left: auto;
   margin-right: auto;
 }
-.our-team li {
-  margin: 25px;
+.our-team .sotr {
+  margin: 15px;
 }
 
-
+.social {
+padding: 0 0;
+display: flex;
+align-items: center;
+}
+.social-media {
+  margin: 0 0;
+}
 /* button */
 .button {
   color: var(--title-text-color);
