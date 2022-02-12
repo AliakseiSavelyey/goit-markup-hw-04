@@ -379,6 +379,11 @@ justify-content: center;
   background: #2f303a;
 }
 
+.our-clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
 /* Portfolio */
 /* цвет кнопок: текст-212121, фон-F5F4FA */
 
