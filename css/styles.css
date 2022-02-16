@@ -186,8 +186,8 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1440px;
   /* outline: 2px solid khaki; */
 }
@@ -376,29 +376,35 @@ justify-content: center;
 
 
 .our-clients {
+  width: 1440px;
+  padding: 0 0;
   display: flex;
-  padding: 0;
-  margin: 0;
-  outline: 1px solid red;
-  list-style: none;
+  justify-content: center
 }
 
-.client {
-  padding: 0;
-  margin: 0;
-  border: none;
+.our-clients .client {
+    display: flex;
+    min-width: 170px;
+    min-height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(175, 177, 184);
+    border-image: initial;
+    border-radius: 4px;
+    width: calc((100% - 180px) / 6);
+    margin: 15px;
 }
-/* .client:hover {
-  background-color: red;
-} */
+.client {
+  color: #afb1b8;
+}
+
 .client-icon {
-  width: 170px;
-  height: 92px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .client-icon:hover {
   fill:#2196f3;
-  background-color: red;
 }
 
 
