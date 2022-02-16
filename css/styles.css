@@ -374,16 +374,92 @@ justify-content: center;
   border: 1px solid transparent;
 }
 
-/* footer */
-.footer {
-  background: #2f303a;
-}
 
 .our-clients {
   display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid red;
+  list-style: none;
 }
+
+.client {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+/* .client:hover {
+  background-color: red;
+} */
+.client-icon {
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+}
+.client-icon:hover {
+  fill:#2196f3;
+  background-color: red;
+}
+
+
+/* 
+.client-one {
+  padding: ;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client1.svg);
+  cursor: pointer;
+}
+.client-two {
+  padding: 0;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client2.svg);
+  cursor: pointer;
+}
+.client-three {
+  padding: 0;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client3.svg);
+  cursor: pointer;
+}
+.client-four {
+  padding: 0;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client4.svg);
+  cursor: pointer;
+}
+.client-five {
+  padding: 0;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client5.svg);
+  cursor: pointer;
+}
+.client-six {
+  padding: 0;
+  border: none;
+  display: block;
+  width: 170px;
+  height: 92px;
+  background-image: url(../image/client6.svg);
+  cursor: pointer;
+} */
+
+
+
 /* Portfolio */
 /* цвет кнопок: текст-212121, фон-F5F4FA */
 
@@ -434,4 +510,10 @@ justify-content: center;
 }
 .flex-element:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+
+/* footer */
+.footer {
+  background: #2f303a;
 }
