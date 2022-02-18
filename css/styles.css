@@ -362,9 +362,10 @@ h3 {
 
 .social {
 padding: 0 0;
-display: flex;
+display: inline-flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 24px;
 }
 
 .social-media:not(:last-child) {
