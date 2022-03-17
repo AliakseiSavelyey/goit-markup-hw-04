@@ -496,10 +496,22 @@ list-style: none;
 
 
 /* footer */
+.all-footer {
+  padding: 60px 15px 60px 15px;
+}
 .footer {
   background: #2f303a;
 }
 
+.footer-address {
+  outline: 2px solid red;
+  margin-bottom: 10px;
+  display: inline-block;
+}
 .footer-social {
+  outline: 2px solid red;
   display: flex;
+  align-items: center;
+  padding: 0;
+  list-style: none;
 }
