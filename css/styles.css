@@ -360,14 +360,21 @@ h3 {
   border-radius: 0px 0px 4px 4px;
 }
 
+.discription {
+  margin-bottom: 16px;
+}
+
 .list-social {
-display: flex;
-align-items: center;
-justify-content: center;
 padding: 0;
-margin: 0;
+margin-bottom: 24px;
 list-style: none;
 text-align: left;
+display: inline-flex;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+width: 206px;
+height: 44px;
 }
 
 .list-social a {
@@ -380,6 +387,9 @@ text-align: left;
 
 .social {
   margin-bottom: 30px;
+  box-sizing: border-box;
+  display: list-item;
+  list-style: none;
 }
 .social:not(:last-child) {
   margin-right: 10px;
@@ -390,6 +400,16 @@ text-align: left;
   border: none;
   color: #757575;
   border-radius: 50%;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: underline;
+
 }
 .social-media:hover {
   color: #f5f4fa;
@@ -400,6 +420,8 @@ text-align: left;
   height: 44px;
   width: 20px;
   fill: currentColor;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 
